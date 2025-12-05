@@ -37,7 +37,7 @@ Only the essential files used during the workshop are included.
 
 ---
 
-## 🛠 Regenerating the Proof (optional)
+## Regenerating the Proof (optional)
 
 zokrates compile -i age.zok
 zokrates setup
