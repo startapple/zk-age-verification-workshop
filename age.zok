@@ -1,0 +1,20 @@
+// ZK Age Verification Circuit
+// Verifica che l'utente abbia almeno 18 anni
+// senza rivelare l'anno di nascita esatto
+
+def main(private field birthYear, field currentYear) -> bool {
+    // Calcola l'età come field
+    field age = currentYear - birthYear;
+
+    // Controlli di sanità sull'anno di nascita
+    bool birthYearNotTooOld = birthYear >= 1900;
+    bool birthYearNotInFuture = birthYear <= currentYear;
+
+    // Controllo ">= 18"
+    bool isAdult = age >= 18;
+
+    // L'output è true solo se TUTTE le condizioni sono vere
+    bool ok = birthYearNotTooOld && birthYearNotInFuture && isAdult;
+
+    return ok;
+}
