@@ -11,7 +11,7 @@ Only the essential files used during the workshop are included.
 
 ---
 
-## 📁 Files Overview
+## Files Overview
 
 | File | Description |
 |------|-------------|
@@ -23,7 +23,7 @@ Only the essential files used during the workshop are included.
 
 ---
 
-## ▶️ Quick Usage (Remix)
+## Quick Usage (Remix)
 
 1. Open the Remix IDE  
 2. Create two files:  
